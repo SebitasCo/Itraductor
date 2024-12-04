@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>iT</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+   
+    <header>
+        <img src="./assets/apple-removebg-preview.png" alt="">
+        <h1>iTraductor</h1>
+    </header>
+
+    <section class="traductor">
+
+<section class="traductions1">
+
+    <p>Palabra/Word</p>
+    <input class="word" type="text" >
+
+    <div class="language"> 
+       
+ <div class="english">
+      <p>English</p>
+         <input type="radio" name="words">
+        </div>
+    <div class="spanish">
+         <p>Spanish</p>
+         <input type="radio" name="words">
+        </div>
+    </div>
+    
+    <button class="translate" id="translate">Traducir/translate</button>
+    <p id="response">Response/Respuesta</p>
+    <button class="newword">Nueva palabra</button>
+
+ 
+   
+</section>
+
+<section  class="traductions">
+
+ 
+        <h3>Categorías</h3>
+
+        <div class="div-categories">
+            <input type="radio" name="categ" class="category" id="animals">
+            <p>Animales</p>
+            <input type="radio" name="categ" class="category" id="fruits">
+            <p>Frutas</p>
+            <input type="radio" name="categ" class="category" id="colors">
+            <p>Colores</p>
+        </div>
+           <div class="div-categories1">
+
+            <input type="radio" name="categ" class="category" id="physical_descriptions">
+            <p>Descripciones</p >
+            <input type="radio" name="categ" class="category" id="skills">
+            <p>Habilidades</p>
+            <input type="radio" name="categ" class="category" id="verbs">
+            <p>Verbos</p>
+
+           </div>
+
+            <div class="list">
+             <p id="word-list"></p>
+        </div>
+        
+
+       
+
+
+</section>
+</section>
+<script type="module" src="./scripts/dictionary.js"></script>
+<script type="module" src="./scripts/app.js"></script>
+</body>
+</html>
